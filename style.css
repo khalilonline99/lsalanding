@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700&display=swap');
+
+.header-link {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header-link:hover {
+    /* text-decoration: underline; */
+    border-bottom: 2px solid #0F508C;
+    border-bottom-width: 2px;
+}
+
+body {
+    font-family: 'Darker Grotesque', sans-serif;
+}
