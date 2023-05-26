@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700&display=swap');
 
-
+/* navbar */
 .navbar {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
 
+
+/* body */
+body {
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+
+/* hero */
 .header-link {
     font-size: 20px;
     font-weight: 400;
@@ -16,16 +24,13 @@
     border-bottom-width: 2px;
 }
 
-body {
-    font-family: 'Darker Grotesque', sans-serif;
-}
 
 #hero {
     background-image: url('/assets/hero-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 831px;
+    height: 853px;
     display: flex;
 }
 
@@ -35,7 +40,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
-    margin-bottom: 37px;
+    margin-bottom: 48px;
 }
 
 .hero-paragraph {
@@ -63,4 +68,57 @@ body {
 
 #hero-illustration {
     padding-top: 77px;
+}
+
+/* steps of higher study */
+
+#step-heading {
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 58px;
+    text-align: center;
+    color: #2873B9;
+}
+
+#step-heading span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+    color: #5A5A5A;
+
+}
+
+.steps-illustration {
+    /* width: 13%; */
+    width: 53%;
+}
+
+#step-two {
+    margin-left: 60px;
+}
+
+.step-card-container {
+    width: 65%;
+}
+
+
+.step-heading {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #2575AF;
+}
+
+.step-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: justify;
+    text-transform: lowercase;
+    color: #000000;
+    /* width: 90% */
 }
