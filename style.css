@@ -122,3 +122,59 @@ body {
     color: #000000;
     /* width: 90% */
 }
+
+.about-section {
+    background-color: #F7F3FF;
+    ;
+}
+
+.heading-two-black {
+    color: #5A5A5A;
+}
+
+.heading-two-blue {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    color: #2873B9;
+    text-align: right;
+}
+
+.about-sub-heading {
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 122.18%;
+    text-align: right;
+    color: #000000;
+}
+
+#horizontal-line {
+    border: 2px solid #000000;
+    width: 393px;
+    margin-left: auto;
+}
+
+#circle-point {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #2575AF;
+    margin-top: 7px;
+    margin-left: 6px;
+}
+
+.about-paragraph {
+    width: 850px;
+    font-size: 24px;
+    line-height: 101%;
+    text-align: right;
+    color: #000000;
+}
+
+#dashed-circle {
+    position: absolute;
+    width: 346px;
+    height: 346px;
+    left: -173px;
+    top: 2626px;
+}
