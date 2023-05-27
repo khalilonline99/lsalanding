@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="overflow-x-hidden">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg container menubar">
         <img src="assets/lsalogo.svg" alt="LSA Education">
@@ -159,7 +159,7 @@
 
         <div class="d-flex flex-column justify-content-end py-5">
 
-            <h2 class="heading-two-blue"> <span class="heading-two-black">About</span> LSA Education</h2>
+            <h2 class="heading-two-blue"> <span class="heading-black">About</span> LSA Education</h2>
             <p class="about-sub-heading">An online platform where a student gets the experts' help and support
                 throughout his/her study abroad
                 journey from getting admission to arriving and settling abroad. Why choose LSA Education:</p>
@@ -228,8 +228,313 @@
         </div>
 
     </div>
+
+    <!-- Counter section starts -->
+    <div id="counter-section">
+        <div class="d-flex justify-content-center mb-4">
+            <div>
+                <h1 id="red-card-score">54</h1>
+                <div id="red-card">
+                    <p class="step-text">In Progress</p>
+                </div>
+            </div>
+            <div>
+                <h1 id="violet-card-score">2591</h1>
+                <div id="violet-card">
+                    <p class="step-text">Students Served</p>
+                </div>
+            </div>
+            <div>
+                <h1 id="green-card-score">140</h1>
+                <div id="green-card">
+                    <p class="step-text">Institutions</p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div>
+                <h1 id="yellow-card-score">5000</h1>
+                <div id="yellow-card">
+                    <p class="step-text">Courses Available</p>
+                </div>
+            </div>
+            <div>
+                <h1 id="blue-card-score">31</h1>
+                <div id="blue-card">
+                    <p class="step-text">Experts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- counter ends -->
+
     <!-- Dashed circle -->
     <img id="dashed-circle" src="/assets/dashed-circle.svg" alt="">
+    <!-- violet circle -->
+    <img id="violet-circle" src="/assets/violet-overlapped-circle.svg" alt="">
+
+
+    <!-- college & university section -->
+    <div id="section-five">
+        <div class="w-50 d-flex flex-column justify-content-end">
+            <h1 id="section-five-heading">Colleges <span class="heading-black">and</span> Universities</h1>
+            <p id="section-five-paragraph">Students may take admission to the following colleges and universities! The
+                trademark of the colleges and universities are not owned by LSA Education.</p>
+            <button class="btn btn-outline-primary text-body ms-auto rounded-4 px-4">Read more</button>
+        </div>
+        <div id="section-five-image-container">
+            <img id="image-dots" src="/assets/dots-section-five.svg" alt="">
+            <img class="rounded-4" id="section-five-image" src="/assets/students-image.png" alt="students">
+            <img id="section-five-blue-card" src="/assets/blue-card-section-five.svg" alt="">
+        </div>
+    </div>
+
+
+    <!-- some universities -->
+    <div id="universities">
+        <div class="d-flex w-100 justify-content-around align-items-center">
+            <img class="uni-image-small" src="/assets/Canadore_College.png" alt="">
+            <img class="uni-image-medium" src="/assets/Concordia_University_of_Edmonton_logo.png" alt="">
+            <img class="uni-image-large" src="/assets/coventry-university-logo.png" alt="">
+            <img class="uni-image-medium" src="/assets/CapeBretonUniversityLogo.png" alt="">
+            <img class="uni-image-small" src="/assets/CDI_College.png" alt="">
+        </div>
+    </div>
+
+    <!--Accordion (List of Unis) -->
+
+    <div class="d-flex accordion-container">
+
+        <img class="me-4" src="/assets/uni-list-illus.svg" alt="">
+
+        <div class="d-flex w-75 flex-column align-items-center">
+            <h1 class="heading-center-black">List of <span class="heading-center-blue">Institutions &</span> </h1>
+            <h1 class="heading-center-blue mb-3">Programs</h1>
+
+
+            <div class="mb-3">
+                <div style="width: 635px;" class="d-flex justify-content-end align-items-center">
+                    <div style="width: 600px; text-align: center;">
+                        <h2 class="accordion-text">America</h2>
+                    </div>
+                    <div>
+                        <img class="ms-3" src="/assets/arrow-down.svg" alt="">
+                    </div>
+                </div>
+                <hr id="accordion-horizontal-line">
+            </div>
+            <div class="mb-3">
+                <div style="width: 635px;" class="d-flex justify-content-end align-items-center">
+                    <div style="width: 600px; text-align: center;">
+                        <h2 class="accordion-text">University</h2>
+                    </div>
+                    <div>
+                        <img class="ms-3" src="/assets/arrow-down.svg" alt="">
+                    </div>
+                </div>
+                <hr id="accordion-horizontal-line">
+            </div>
+            <div>
+                <div style="width: 635px;" class="d-flex justify-content-end align-items-center">
+                    <div style="width: 600px; text-align: center;">
+                        <h2 class="accordion-text">Public</h2>
+                    </div>
+                    <div>
+                        <img class="ms-3" src="/assets/arrow-down.svg" alt="">
+                    </div>
+                </div>
+                <hr id="accordion-horizontal-line">
+            </div>
+
+            <button class="btn btn-outline-primary rounded-5 w-25 mt-5">OK</button>
+
+        </div>
+    </div>
+
+    <!-- Feedbacks from student starts -->
+    <div id="feedback-container">
+        <h2 class="heading-center-black">Feedback From Our <span class="heading-center-blue">Students</span> </h2>
+
+        <div class="d-flex w-75 mx-auto mt-5 gap-3">
+
+            <!-- card 01 -->
+            <div class="bg-light p-3 feedback-card">
+                <div class="d-flex">
+                    <img class="rounded me-2" src="/assets/student-feedback.png" alt="">
+                    <h3 class="feedback-student-name">Tawfiq Sameer</h3>
+                </div>
+                <p class="lh-sm mt-2 feedack-paragraph">It is a long established fact that a reader will be distracted
+                    by the readable content of a page when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English.</p>
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                        <div>
+                            <img src="/assets/star.svg" alt="">
+                            <img src="/assets/star.svg" alt="">
+                            <img src="/assets/star.svg" alt="">
+                            <img src="/assets/star.svg" alt="">
+                            <img src="/assets/star.svg" alt="">
+                        </div>
+                        <h5> (50) </h5>
+                    </div>
+                    <div>
+                        <img src="/assets/down-arrow.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 02 -->
+            <div class="bg-light p-3 feedback-card">
+                <div class="d-flex">
+                    <img class="rounded me-2" src="/assets/student-feedback.png" alt="">
+                    <h3 class="feedback-student-name">Tawfiq Sameer</h3>
+                </div>
+                <p class="lh-sm mt-2 feedack-paragraph">It is a long established fact that a reader will be distracted
+                    by the readable content of a page when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English.</p>
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                        <div>
+                            <img src="/assets/star.svg" alt="">
+                            <img src="/assets/star.svg" alt="">
+                            <img src="/assets/star.svg" alt="">
+                            <img src="/assets/star.svg" alt="">
+                            <img src="/assets/star.svg" alt="">
+                        </div>
+                        <h5> (50) </h5>
+                    </div>
+                    <div>
+                        <img src="/assets/down-arrow.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- card 03 -->
+            <div class="bg-light p-3 feedback-card">
+                <div class="d-flex">
+                    <img class="rounded me-2" src="/assets/student-feedback.png" alt="">
+                    <h3 class="feedback-student-name">Tawfiq Sameer</h3>
+                </div>
+                <p class="lh-sm mt-2 feedack-paragraph">It is a long established fact that a reader will be distracted
+                    by the readable content of a page when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English.</p>
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                        <div>
+                            <img src="/assets/star.svg" alt="">
+                            <img src="/assets/star.svg" alt="">
+                            <img src="/assets/star.svg" alt="">
+                            <img src="/assets/star.svg" alt="">
+                            <img src="/assets/star.svg" alt="">
+                        </div>
+                        <h5> (50) </h5>
+                    </div>
+                    <div>
+                        <img src="/assets/down-arrow.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- slider feedback -->
+        <div class="mx-auto d-flex gap-2 mt-5">
+            <img src="/assets/slider-blue.svg" alt="">
+            <img src="/assets/slider-dot.svg" alt="">
+            <img src="/assets/slider-dot.svg" alt="">
+        </div>
+
+    </div>
+    <!-- Feedbacks from student ENDS -->
+
+    <!-- Our Service Starts -->
+    <div class="py-5">
+        <h1 class="heading-center-blue">Our Services</h1>
+
+        <!-- first row -->
+        <div class="d-flex gap-5 justify-content-center">
+
+            <!-- first element -->
+            <div class="d-flex align-items-center gap-3">
+                <img src="/assets/assist-wth-admission.svg" alt="">
+                <div class="vertical-dashed-line"></div>
+                <div>
+                    <h2 class="sub-heading-service" id="service-sub-heading-one" id="service-sub-heading-one">Assist
+                        with admission process</h2>
+                    <p class="paragraph-service" id="service-paragraph-one">We take care of the hard and complex
+                        admission process.</p>
+                </div>
+            </div>
+
+            <!-- second element -->
+            <div class="d-flex align-items-center gap-3" id="service-third-element">
+                <img src="/assets/guide-students.svg" alt="">
+                <div class="vertical-dashed-line"></div>
+                <div>
+                    <h2 class="sub-heading-service" id="service-sub-heading-two">Guide students with supporting
+                        documents</h2>
+                    <p class="paragraph-service" id="service-paragraph-one">LSA Education provide free guidance for
+                        supporting documents.</p>
+                </div>
+            </div>
+
+            <!-- third element -->
+            <div class="d-flex align-items-center gap-3">
+                <img src="/assets/airport-pickup.svg" alt="">
+                <div class="vertical-dashed-line"></div>
+                <div>
+                    <h2 class="sub-heading-service" id="service-sub-heading-three">Airport pick-up and find
+                        housing/accommodation</h2>
+                    <p class="paragraph-service" id="service-paragraph-three">In certain cities LSA Education provide
+                        support to students with airport pick-up and housing.</p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- second row -->
+        <div class="d-flex gap-5 justify-content-center my-5">
+            <div class="d-flex align-items-center gap-3">
+                <img src="/assets/help-new-student.svg" alt="">
+                <div class="vertical-dashed-line"></div>
+                <div>
+                    <h2 class="sub-heading-service" id="service-sub-heading-three">Help new students in Canada with city
+                        tour</h2>
+                    <p class="paragraph-service" id="service-paragraph-three">LSA Education helps new student in Canada
+                        to introduce the city by take students to a city tour.</p>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center gap-3">
+                <img src="/assets/other-support.svg" alt="">
+                <div class="vertical-dashed-line"></div>
+                <div>
+                    <h2 class="sub-heading-service" id="service-sub-heading-three">Other support to settle in abroad for
+                        studying</h2>
+                    <p class="paragraph-service" id="service-paragraph-three">We assist students with answering
+                        questions related to settling in a new life in abroad.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+     <!-- Dashed circle -->
+     <img id="light-green-dots" src="/assets/light-green-dots.svg" alt="">
+    <!-- violet circle -->
+    <img id="pink-circle-two" src="/assets/pint-circle-transparent.svg" alt="">
+
+
 
 
 
