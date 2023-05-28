@@ -396,7 +396,7 @@ body {
     font-size: 32px;
 }
 
-#accordion-horizontal-line {
+.accordion-horizontal-line {
     border: 1px solid #000000;
     width: 635px;
     margin: 0;
@@ -502,4 +502,115 @@ body {
     height: 346px;
     right: -1229px;
     top: -770px;
+}
+
+.heading-center-black {
+    font-weight: 700;
+    font-size: 64px;
+    /* text-align: left; */
+    color: #5A5A5A;
+}
+
+.btn-outline-warning {
+    color: #F4752D;
+    border-color: #F4752D;
+}
+
+.btn-outline-warning:hover {
+    color: white;
+    background-color: #F4752D;
+    border-color: white;
+}
+
+.popular-courses {
+    margin-top: -255px;
+    margin-bottom: 85px;
+}
+
+.courses-card-container {
+    width: 349px;
+    height: 424px;
+}
+
+.sub-heading-two {
+    font-weight: 600;
+    font-size: 16px;
+    color: #989898;
+}
+
+.sub-heading-three {
+    width: 245px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+}
+
+.price-blue {
+    font-weight: 800;
+    font-size: 20px;
+    color: #1F65A9;
+}
+
+
+#dashed-circle-violet {
+    position: relative;
+    width: 346px;
+    height: 346px;
+    left: -535px;
+    top: -61px;
+}
+
+.form-container {
+    position: relative;
+    z-index: 2;
+}
+
+#form-background {
+    position: relative;
+    width: 876px;
+    /* height: 346px; */
+    right: -802px;
+    top: -405px;
+    z-index: 0;
+}
+
+.form-field input {
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #5A5A5A;
+}
+
+.form-field textarea:focus,
+input:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.input-horizontal-line {
+    border-bottom: 1px outset black;
+}
+
+.form-text-area textarea::placeholder {
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #5A5A5A;
+}
+
+#get-in-touch {
+    font-weight: 700;
+    font-size: 64px;
+    text-align: right;
+    padding-right: 250px;
+    text-transform: lowercase;
+    color: #EC7938;
+}
+
+#form-send-message-button-text {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
 }
