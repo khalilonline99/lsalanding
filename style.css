@@ -608,9 +608,49 @@ input:focus {
     color: #EC7938;
 }
 
+#heading-before-footer {
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: lowercase;
+    color: #454545;
+    width: 470px; 
+}
+
+
 #form-send-message-button-text {
     font-weight: 700;
     font-size: 24px;
     text-align: center;
     text-transform: capitalize;
+}
+
+
+#footer-bg {
+    position: relative;
+    width: 2536px;
+    left: -451px;
+    /* top: -755px; */
+    bottom: 792px;
+    z-index: 0;
+    margin-bottom: -857px;
+}
+
+
+.footer-container {
+    position: relative;
+    z-index: 2;
+}
+
+.footer-heading {
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
 }
