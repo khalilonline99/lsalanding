@@ -3,7 +3,7 @@
 /* navbar */
 .navbar {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
 }
 
 
@@ -73,8 +73,6 @@ body {
 /* steps of higher study */
 
 #step-heading {
-    font-family: 'Darker Grotesque';
-    font-style: normal;
     font-weight: 800;
     font-size: 64px;
     line-height: 58px;
@@ -83,12 +81,15 @@ body {
 }
 
 #step-heading span {
-    font-style: normal;
     font-weight: 400;
     font-size: 64px;
     text-align: center;
     color: #5A5A5A;
+}
 
+#illustration-section-one-dots {
+    margin-top: 335px;
+    margin-right: 25px;
 }
 
 .steps-illustration {
@@ -96,8 +97,19 @@ body {
     width: 53%;
 }
 
+.step-section-illustration {
+    height: 48rem;
+}
+
+#step-one {
+    padding-bottom: 4rem;
+}
 #step-two {
     margin-left: 60px;
+    padding-bottom: 5rem;
+}
+#step-three {
+    padding-bottom: 3rem;
 }
 
 .step-card-container {
@@ -122,9 +134,11 @@ body {
     /* width: 90% */
 }
 
+
+/* About LSA  */
+
 .about-section {
     background-color: #F7F3FF;
-    ;
 }
 
 .heading-black {
@@ -189,6 +203,8 @@ body {
     top: -406px;
 
 }
+
+/* Counter Section */
 
 #counter-section {
     margin-bottom: -155px;
@@ -295,6 +311,8 @@ body {
     left: 27px;
     color: #398633;
 }
+
+/* Section Five- College & Unis */
 
 #section-five {
     background-color: #F5FAFF;
@@ -677,3 +695,14 @@ input:focus {
     padding-top: 30px;
     z-index: 2;
 }
+
+
+
+
+/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        color: red;
+    }
+} */
