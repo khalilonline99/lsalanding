@@ -186,7 +186,7 @@
     /* Counter Section */
 
     #counter-section {
-        margin-bottom: 8rem;
+        margin-bottom: 6rem;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -316,6 +316,305 @@
         color: #398633;
         margin-bottom: -23px;
         z-index: 2;
+    }
+
+    /* Section Five Colleges and unis */
+
+    #section-five {
+        background-color: #F5FAFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-bottom: 97px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .section-five-texts {
+        order: 2;
+        width: 20rem;
+        margin: 0px;
+    }
+
+    .section-five-texts button {
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    #section-five-heading {
+        font-weight: 700;
+        font-size: 37px;
+        line-height: 40px;
+        color: #2873B9;
+        text-align: left;
+    }
+
+    #section-five-paragraph {
+        font-size: 18px;
+        line-height: 101%;
+        color: #000000;
+        text-align: left;
+    }
+
+    #section-five-image-container {
+        position: relative;
+    }
+
+    #image-dots {
+        position: relative;
+        right: -277px;
+        top: 33px;
+        z-index: 1;
+    }
+
+    #section-five-image {
+        width: 22rem;
+        position: inherit;
+        z-index: 5;
+        margin-left: 20px;
+    }
+
+    #section-five-blue-card {
+        display: none;
+    }
+
+
+    /* Universitites */
+    #universities {
+        top: 0px;
+        border-radius: 0;
+        width: 100vw;
+        height: 150px;
+        margin-bottom: 100px;
+    }
+
+    .universities-container {
+        margin: auto;
+        padding: 5px;
+    }
+
+    .uni-image-small {
+        width: 92px;
+        height: 33px;
+    }
+
+    .uni-image-medium {
+        width: 92px;
+        height: 33px;
+    }
+
+    .uni-image-large {
+        width: 92px;
+        height: 33px;
+    }
+
+    /* accordion Part */
+    .accordion-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #accordion-illustration {
+        width: 70vw;
+        padding-bottom: 12px;
+        padding-left: 20px;
+    }
+
+    .heading-center-blue {
+        font-weight: 700;
+        font-size: 37px;
+        color: #2873B9;
+        text-align: center;
+
+    }
+
+    .heading-center-black {
+        font-weight: 700;
+        font-size: 37px;
+        color: #5A5A5A;
+        text-align: center;
+        height: 25px;
+        width: 100vw;
+    }
+
+    .accordion-text {
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .accordion-text-and-arrow {
+        width: 350px;
+    }
+
+    .accordion-horizontal-line {
+        border: 1px solid #000000;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Feedback Part */
+
+    #feedback-container {
+        height: 72rem;
+        background: #FFF5F5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-top: 85px;
+        margin-bottom: 100px;
+    }
+
+    .feedback-card {
+        width: auto;
+        height: auto;
+        background: #FFFFFF;
+        box-shadow: 8px 16px 20px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 18px;
+    }
+
+    .feedback-student-name {
+        font-weight: 600;
+        font-size: 24px;
+        color: #515151;
+    }
+
+    .feedback-paragraph {
+        font-style: normal;
+        font-weight: 400;
+        color: black;
+    }
+
+    #light-green-dots {
+        position: relative;
+        width: 62px;
+        top: -2600px;
+    }
+
+    /* Service Part  */
+    .vertical-dashed-line {
+        height: 72px;
+        border-left: 3px dashed #1F65A9;
+    }
+
+    .sub-heading-service {
+        font-weight: 700;
+        font-size: 24px;
+        color: #2873B9;
+        text-align: left;
+    }
+
+    #service-third-element {
+        margin-top: 107px;
+    }
+
+    #service-sub-heading-one {
+        width: 170px;
+    }
+
+    #service-sub-heading-two {
+        width: 213px;
+    }
+
+    #service-sub-heading-three {
+        width: 268px;
+    }
+
+    .paragraph-service {
+        /* width: 195px; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: left;
+        text-transform: lowercase;
+        color: #000000;
+    }
+
+    #service-paragraph-one {
+        width: 195px;
+    }
+
+    #service-paragraph-two {
+        width: 195px;
+    }
+
+    #service-paragraph-three {
+        width: 265px;
+    }
+
+
+    /* Service Part  */
+
+    #service-third-element {
+        margin-top: 0px;
+    }
+
+
+    #service-sub-heading-one {
+        width: 170px;
+    }
+
+    #service-sub-heading-two {
+        width: 170px;
+    }
+
+    #service-sub-heading-three {
+        width: 170px;
+    }
+
+    .paragraph-service {
+        /* width: 195px; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: left;
+        text-transform: lowercase;
+        color: #000000;
+    }
+
+    #service-paragraph-one {
+        width: 195px;
+    }
+
+    #service-paragraph-two {
+        width: 195px;
+    }
+
+    #service-paragraph-three {
+        width: 195px;
+    }
+
+    #pink-circle-two {
+        position: relative;
+        width: 227px;
+        top: -119px;
+        left: 200px;
+    }
+
+    #dashed-circle-violet {
+        position: relative;
+        width: 156px;
+        left: -84px;
+        top: -61px;
+    }
+
+
+    /* Popular Courses */
+    .popular-courses {
+        margin-top: -645px;
+        margin-bottom: 85px
+    }
+
+    .popular-course-heading {
+        font-weight: 700;
+        font-size: 37px;
+        color: #5A5A5A;
+        position: relative;
+        text-align: center;
     }
 
 

@@ -58,7 +58,7 @@
                 <button onclick="closeButton()">X</button>
             </div>
         </div>
-        <div class="container-fluid d-flex justify-content-between p-2 d-block d-lg-none d-xl-none">
+        <div class="container-fluid d-flex justify-content-between p-2 d-block d-lg-none d-xl-none" id="nav-mobile-menu">
             <img src="assets/lsalogo.svg" alt="LSA Education">
             <div class="fs-3"><button class="btn btn-outline-primary" onclick="openMenu()">Menu</button> </div>
         </div>
@@ -287,11 +287,11 @@
 
     <!-- college & university section -->
     <div id="section-five">
-        <div class="w-50 d-flex flex-column justify-content-end">
+        <div class="w-full w-lg-50 w-xl-50 d-flex flex-column justify-content-end justify-content-xs-start section-five-texts">
             <h1 id="section-five-heading">Colleges <span class="heading-black">and</span> Universities</h1>
             <p id="section-five-paragraph">Students may take admission to the following colleges and universities! The
                 trademark of the colleges and universities are not owned by LSA Education.</p>
-            <button class="btn btn-outline-primary text-body ms-auto rounded-4 px-4">Read more</button>
+            <button class="btn btn-outline-primary text-body rounded-4 px-4">Read more</button>
         </div>
         <div id="section-five-image-container">
             <img id="image-dots" src="assets/dots-section-five.svg" alt="">
@@ -301,57 +301,57 @@
     </div>
 
 
-    <!-- some universities -->
+    <!-- some universities in vertical blue bar -->
     <div id="universities">
-        <div class="d-flex w-100 justify-content-around align-items-center">
-            <img class="uni-image-small" src="assets/Canadore_College.png" alt="">
-            <img class="uni-image-medium" src="assets/Concordia_University_of_Edmonton_logo.png" alt="">
-            <img class="uni-image-large" src="assets/coventry-university-logo.png" alt="">
-            <img class="uni-image-medium" src="assets/CapeBretonUniversityLogo.png" alt="">
-            <img class="uni-image-small" src="assets/CDI_College.png" alt="">
+        <div class="d-xl-flex d-lg-flex d-flex flex-wrap w-100 justify-content-center justify-content-lg-around justify-content-xl-around justify-content-xxl-around align-items-center universities-container gap-2">
+            <img class="uni-image-small" src="assets/Canadore_College.png" alt="Candore Cpllege">
+            <img class="uni-image-medium" src="assets/Concordia_University_of_Edmonton_logo.png" alt="Concordia University of Edmonton">
+            <img class="uni-image-large" src="assets/coventry-university-logo.png" alt="coventry university">
+            <img class="uni-image-medium" src="assets/CapeBretonUniversityLogo.png" alt="CapeBreton University">
+            <img class="uni-image-small" src="assets/CDI_College.png" alt="CDI College">
         </div>
     </div>
 
-    <!--Accordion (List of Unis) -->
+    <!--Accordion (List of universities) -->
 
-    <div class="d-flex accordion-container">
+    <div class="d-flex flex-column flex-lg-row flex-xl-row flex-xxl-row accordion-container">
 
-        <img class="me-4" src="assets/uni-list-illus.svg" alt="">
+        <img class="me-lg-4 me-xl-4 me-xxl-4 m-auto" id="accordion-illustration" src="assets/uni-list-illus.svg" alt="">
 
-        <div class="d-flex w-75 flex-column align-items-center">
+        <div class="d-flex w-full w-lg-75 w-xl-75 w-xxl-75 flex-column align-items-center">
+
             <h1 class="heading-center-black">List of <span class="heading-center-blue">Institutions &</span> </h1>
             <h1 class="heading-center-blue mb-3">Programs</h1>
 
-
             <div class="mb-3">
-                <div style="width: 635px;" class="d-flex justify-content-end align-items-center">
+                <div class="d-flex justify-content-end align-items-center accordion-text-and-arrow">
                     <div style="width: 600px; text-align: center;">
                         <h2 class="accordion-text">America</h2>
                     </div>
                     <div>
-                        <img class="ms-3" src="assets/arrow-down.svg" alt="">
+                        <img class="ms-0 ms-lg-3 ms-xl-3 ms-xxl-3" src="assets/arrow-down.svg" alt="">
                     </div>
                 </div>
                 <hr class="accordion-horizontal-line">
             </div>
             <div class="mb-3">
-                <div style="width: 635px;" class="d-flex justify-content-end align-items-center">
+                <div class="d-flex justify-content-end align-items-center accordion-text-and-arrow">
                     <div style="width: 600px; text-align: center;">
                         <h2 class="accordion-text">University</h2>
                     </div>
                     <div>
-                        <img class="ms-3" src="assets/arrow-down.svg" alt="">
+                        <img class="ms-0 ms-lg-3 ms-xl-3 ms-xxl-3" src="assets/arrow-down.svg" alt="">
                     </div>
                 </div>
                 <hr class="accordion-horizontal-line">
             </div>
             <div>
-                <div style="width: 635px;" class="d-flex justify-content-end align-items-center">
+                <div class="d-flex justify-content-end align-items-center accordion-text-and-arrow">
                     <div style="width: 600px; text-align: center;">
                         <h2 class="accordion-text">Public</h2>
                     </div>
                     <div>
-                        <img class="ms-3" src="assets/arrow-down.svg" alt="">
+                        <img class="ms-0 ms-lg-3 ms-xl-3 ms-xxl-3" src="assets/arrow-down.svg" alt="">
                     </div>
                 </div>
                 <hr class="accordion-horizontal-line">
@@ -360,13 +360,14 @@
             <button class="btn btn-outline-primary rounded-5 w-25 mt-5">OK</button>
 
         </div>
+
     </div>
 
     <!-- Feedbacks from student starts -->
     <div id="feedback-container">
-        <h2 class="heading-center-black">Feedback From Our <span class="heading-center-blue">Students</span> </h2>
+        <h2 class="heading-center-black mb-5 mb-lg-0 mb-xl-0 mb-xxl-0">Feedback From Our <span class="heading-center-blue">Students</span> </h2>
 
-        <div class="d-flex w-75 mx-auto mt-5 gap-3">
+        <div class="d-flex flex-column flex-lg-row flex-xl-row flex-xxl-row w-75 mx-auto mt-5 gap-3">
 
             <!-- card 01 -->
             <div class="bg-light p-3 feedback-card">
@@ -467,15 +468,15 @@
     <!-- Feedbacks from student ENDS -->
 
     <!-- Our Service Starts -->
-    <div class="py-5">
-        <h1 class="heading-center-blue">Our Services</h1>
+    <div class="py-lg-5 py-xl-5 py-xxl-5">
+        <h1 class="heading-center-blue mb-5 mb-lg-0 mb-xl-0 mb-xxl-0">Our Services</h1>
 
         <!-- first row -->
-        <div class="d-flex gap-5 justify-content-center">
+        <div class="d-flex flex-column flex-xl-row flex-xxl-row gap-5 justify-content-center align-items-center">
 
             <!-- first element -->
             <div class="d-flex align-items-center gap-3">
-                <img src="assets/assist-wth-admission.svg" alt="">
+                <img src="assets/assist-wth-admission.svg" alt="LSA assist with admission">
                 <div class="vertical-dashed-line"></div>
                 <div>
                     <h2 class="sub-heading-service" id="service-sub-heading-one" id="service-sub-heading-one">Assist
@@ -492,7 +493,7 @@
                 <div>
                     <h2 class="sub-heading-service" id="service-sub-heading-two">Guide students with supporting
                         documents</h2>
-                    <p class="paragraph-service" id="service-paragraph-one">LSA Education provide free guidance for
+                    <p class="paragraph-service" id="service-paragraph-two">LSA Education provide free guidance for
                         supporting documents.</p>
                 </div>
             </div>
@@ -513,7 +514,7 @@
         </div>
 
         <!-- second row -->
-        <div class="d-flex gap-5 justify-content-center my-5">
+        <div class="d-flex flex-column flex-xl-row flex-xxl-row gap-5 justify-content-center my-5 align-items-center">
             <div class="d-flex align-items-center gap-3">
                 <img src="assets/help-new-student.svg" alt="">
                 <div class="vertical-dashed-line"></div>
@@ -550,14 +551,11 @@
     <!-- Popular courses -->
     <div class="container popular-courses">
 
-        <div class="d-flex align-items-center justify-content-around mb-3">
+        <div class="d-flex flex-column flex-lg-row flex-xl-row flex-xxl-row align-items-center justify-content-around mb-3">
             <div>
-                <h1 style="font-weight: 700;
-                font-size: 64px;
-                color: #5A5A5A;
-                position: relative;">Our Most <span style="color: #EC7938;">popular</span> Courses</h1>
+                <h1 class="popular-course-heading">Our Most <span style="color: #EC7938;">popular</span> Courses</h1>
             </div>
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center mt-3 mt-lg-0 mt-xl-0 mt-xxl-0">
                 <button type="button" class="btn btn-outline-warning rounded-4">New Courses</button>
                 <p class="ms-2 my-0" style="font-weight: 500; font-size: 20px; color: #F4752D;">Popular Courses</p>
             </div>
