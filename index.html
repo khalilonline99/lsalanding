@@ -562,7 +562,7 @@
         </div>
 
         <!-- images with cards-->
-        <div class="d-flex justify-content-center gap-3 w-75 mx-auto mt-5">
+        <div class="d-flex flex-column flex-lg-row flex-xl-row flex-xxl-row justify-content-center align-items-center gap-3 w-full w-lg-75 w-xl-75 w-xxl-75 mx-0 mx-lg-auto mx-xl-auto mx-xxl-auto mt-5">
             <div class="courses-card-container" style="box-shadow: 8px 10px 20px 5px rgba(0, 0, 0, 0.05);">
                 <div>
                     <img class="rounded-top" src="assets/popular-course-image.png" alt="">
@@ -668,8 +668,8 @@
             </div>
         </div>
         <!-- slider of courses -->
-        <div class="d-flex align-items-center w-25 m-auto">
-            <div class="d-flex gap-2 mt-5 w-25 m-auto">
+        <div class="d-flex align-items-center w-full m-auto">
+            <div class="d-flex gap-2 mt-5 m-auto">
                 <img src="assets/slider-blue.svg" alt="">
                 <img src="assets/slider-dot.svg" alt="">
                 <img src="assets/slider-dot.svg" alt="">
@@ -683,13 +683,13 @@
         <div>
             <h1 id="get-in-touch">Get In Touch</h1>
         </div>
-        <div class="container d-flex justify-content-around align-items-center gap-5">
+        <div class="container d-flex flex-column flex-lg-row flex-xl-row flex-xxl-row justify-content-around align-items-center gap-5">
             <div>
-                <img src="assets/get-in-touch-illustration.svg" alt="">
+                <img id="form-illustration" src="assets/get-in-touch-illustration.svg" alt="">
             </div>
             <div class="form-container">
 
-                <div class="ps-5 pb-3 mt-5">
+                <div class="ps-lg-5 ps-xl-5 ps-xxl-5 pb-3 mt-5">
                     <div class="row g-5 align-items-center mb-4 form-field">
                         <div class="col">
                             <input type="text" id="name" class="border border-0 bg-transparent" placeholder="name">
@@ -729,20 +729,19 @@
 
     <!-- Footer starts -->
 
-    <div style="margin-top: -246px;">
-        <div class="container" style="margin-bottom: 100px;">
-            <h3 id="heading-before-footer">
+    <div id="footer-with-before-footer-contents">
+        <div class="container" id="before-footer-text-container"> 
+            <h3 id="before-footer-text">
                 LSA Education is one of the simplest and user-friendly platforms assisting International Students with
                 admission process to settling in abroad.
             </h3>
         </div> 
     
         <div class="container d-flex justify-content-between align-items-center footer-container">
-            <div class="d-flex w-75" style="padding-left: 6rem;">
+            <div class="d-flex w-75" id="footer-header-and-links">
                 <div class="d-flex align-items-start">
-                    <img src="/assets/location-icon.svg" alt="" style="width: 25px;padding-top: 9px;
-                    margin-right: 8px;">
-                    <div class="me-5 text-white" style="width: 255px;">
+                    <img src="/assets/location-icon.svg" alt="location icon" id="footer-icon-location">
+                    <div class="me-lg-5 me-xl-5 me-xxl-5 text-white" id="footer-address-container">
                         <h2 class="footer-heading">Address</h2>
                         <p class="footer-text">Rupayan Millennium Square,Lift-4, 4E-1 70 /A Progati sharoni,North Badda,Dhaka,1212 Dhaka,
                             Bangladesh</p>
@@ -764,16 +763,16 @@
                     </a>
                 </div>
             </div>
-            <div class="w-50">
-                <img class="" src="assets/footer-iilustration.svg" alt="">
+            <div class="w-50 d-none d-lg-block d-xl-block d-xxl-block">
+                <img src="assets/footer-iilustration.svg" alt="">
             </div>
         </div>
 
-        <div class="container d-flex justify-content-between copyright-container">
+        <div class="container d-flex flex-column flex-lg-row flex-xl-row flex-xxl-row justify-content-lg-center justify-content-xl-between justify-content-xxl-between align-items-center copyright-container">
             <p class="copyright-text">Copyright 2021 LSA EDUCATION  | All Rights Reserved</p>
             <div>
                 <h3 class="trained-by">Trained and Recognized by:</h3>
-                <img src="assets/PIER-ICEF.png" alt="">
+                <img id="footer-sponsor-image" src="assets/PIER-ICEF.png" alt="">
             </div>
         </div>
     </div>

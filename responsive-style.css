@@ -617,5 +617,120 @@
         text-align: center;
     }
 
+    /* Get in touch Form Part */
+
+    #get-in-touch {
+        font-weight: 700;
+        font-size: 37px;
+        text-align: center;
+        padding-right: 0px;
+        text-transform: lowercase;
+        color: #EC7938;
+    }
+
+    #form-illustration {
+        width: 25rem;
+        margin-top: 20px;
+    }
+
+    #form-background {
+        position: relative;
+        width: 912px;
+        top: -440px;
+        left: -454px;
+        z-index: 0;
+    }
+
+    /* Footer */
+
+
+    #footer-with-before-footer-contents {
+        margin-top: -400px;
+    }
+
+    #before-footer-text-container {
+        margin-bottom: 0;
+    }
+
+    .footer-container {
+        position: relative;
+        z-index: 2;
+        bottom: 110px;
+    }
+
+
+    #before-footer-text {
+        font-weight: 700;
+        font-size: 23px;
+        text-transform: lowercase;
+        color: #454545;
+        width: 100vw;
+        text-align: center;
+        margin-bottom: 310px;
+    }
+
+    #footer-bg {
+        position: relative;
+        width: 100rem;
+        left: -547px;
+        bottom: 792px;
+        z-index: 0;
+        /* margin-bottom: -857px; */
+    }
+
+    .footer-heading {
+        font-weight: 600;
+        font-size: 25px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    .footer-text {
+        font-weight: 300;
+        font-size: 15px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    #footer-icon-location {
+        width: 5vw;
+        padding-top: 6px;
+        margin-right: 7px;
+    }
+
+    #footer-header-and-links {
+        padding-left: 0;
+    }
+
+
+    .trained-by {
+        font-weight: 700;
+        font-size: 18px;
+        text-align: right;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        width: 204px;
+    }
+
+    .copyright-container {
+        position: relative;
+        padding-top: 0;
+        z-index: 2;
+        bottom: 109px;
+        left: 0px;
+    }
+
+    .copyright-text {
+        font-weight: 400;
+        font-size: 15px;
+        text-align: left;
+        text-transform: capitalize;
+        margin: 0;
+        color: #FFFFFF;
+    }
+
+    #footer-sponsor-image {
+        width: 50vw;
+    }
 
 }
