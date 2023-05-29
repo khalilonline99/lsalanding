@@ -13,18 +13,12 @@
 
     #hero {
         background-image: url('assets/hero-bg.png');
-        /* background-position: center; */
-        /* background-repeat: no-repeat; */
-        /* background-size: cover; */
         height: 35em;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
 
-    /* .hero-texts {
-        margin-top: 10px;
-    } */
 
     .heading-large {
         color: #FFFFFF;
@@ -655,7 +649,7 @@
     .footer-container {
         position: relative;
         z-index: 2;
-        bottom: 110px;
+        bottom: -522px;
     }
 
 
@@ -665,17 +659,17 @@
         text-transform: lowercase;
         color: #454545;
         width: 100vw;
-        text-align: center;
-        padding-bottom: 400px;
+        padding-bottom: 0;
+        margin-bottom: -250px;
     }
 
     #footer-bg {
         position: relative;
         width: 100rem;
         left: -547px;
-        bottom: 792px;
+        bottom: 0px;
         z-index: 0;
-        /* margin-bottom: -857px; */
+        margin-bottom: 0;
     }
 
     .footer-heading {
@@ -716,7 +710,7 @@
         position: relative;
         padding-top: 0;
         z-index: 2;
-        bottom: 109px;
+        bottom: -534px;
         left: 0px;
     }
 
