@@ -645,7 +645,7 @@
 
 
     #footer-with-before-footer-contents {
-        margin-top: -400px;
+        margin-top: -385px;
     }
 
     #before-footer-text-container {
@@ -666,7 +666,7 @@
         color: #454545;
         width: 100vw;
         text-align: center;
-        margin-bottom: 310px;
+        padding-bottom: 400px;
     }
 
     #footer-bg {
