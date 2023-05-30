@@ -1,6 +1,6 @@
 function openMenu() {
     let navMenu = document.getElementById("nav-menu-top");
-    navMenu.classList.add("d-sm-block", "d-xs-block");
+    navMenu.classList.add("d-sm-block", "d-xs-block", "wow", "bounceInDown");
     navMenu.classList.remove("d-lg-block","d-xl-block", "d-none");
     let mobileMenu = document.getElementById("nav-mobile-menu");
     mobileMenu.classList.remove("d-flex");
