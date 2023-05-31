@@ -31,13 +31,24 @@ body {
 }
 
 
-#hero {
+
+#hero-container {
+    margin-bottom: -31rem;
+    /* position: relative;
+    z-index: 1; */
+}
+
+#hero-texts {
+    margin-left: 13rem;
+    margin-top: 5rem;
+}
+
+#particles-js {
     background-image: url('../assets/hero-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 853px;
-    display: flex;
 }
 
 .heading-large {

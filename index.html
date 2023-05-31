@@ -14,6 +14,12 @@
     <link rel="stylesheet" href="css/animate.css">
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/94ef149fb5.js" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+
+
 </head>
 
 <body style="height: 100vh;">
@@ -30,10 +36,11 @@
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                             aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                            <i class="fa-solid fa-bars" style="color: #2873b9;"></i>
                         </button>
 
-                        <div class="collapse navbar-collapse d-lg-flex d-xl-flex d-xxl-flex justify-content-evenly" id="navbarCollapse">
+                        <div class="collapse navbar-collapse d-lg-flex d-xl-flex d-xxl-flex justify-content-evenly"
+                            id="navbarCollapse">
 
                             <ul class="navbar-nav">
                                 <li class="nav-item">
@@ -84,27 +91,32 @@
 
         </div>
 
-
         <!-- Hero Section -->
-        <div id="hero">
-            <div class="container hero-texts mt-5 ms-3 wow bounceInLeft" data-wow-duration="2s">
-                <p class="hero-paragraph">LSA Education is here for <span
-                        class="text-primary bg-light rounded-4 px-2 pb-1">
-                        Supporting Documents </span> </p>
-                <h2 class="heading-large"> LSA Education is the <br> ONLY Solution For Your <br> Study Abroad
-                    Journey
-                </h2>
-                <p class="hero-paragraph">
-                    Our experts are highly qualified people with international <br> background who can guide you
-                    throughout
-                    the study <br> permit process.
-                </p>
-            </div>
-            <div id="hero-illustration" class="ms-lg-3 ms-xl-3 ms-xxl-3 mt-3 wow fadeIn" data-wow-duration="2s"
-                data-wow-delay="1s">
-                <img src="assets/hero-illustration.svg" alt="A boy reading a book illustration">
+        <div id="particles-js">
+            <div class="d-flex flex-column flex-lg-row flex-xl-row flex-xxl-row" id="hero-container">
+                <div class="container wow bounceInLeft" id="hero-texts" data-wow-duration="2s">
+                    <p class="hero-paragraph">LSA Education is here for <span
+                            class="text-primary bg-light rounded-4 px-2 pb-1">
+                            Supporting Documents </span> </p>
+                    <h2 class="heading-large"> LSA Education is the <br> ONLY Solution For Your <br> Study Abroad
+                        Journey
+                    </h2>
+                    <p class="hero-paragraph">
+                        Our experts are highly qualified people with international <br> background who can guide you
+                        throughout
+                        the study <br> permit process.
+                    </p>
+                </div>
+                <div id="hero-illustration" class="ms-lg-3 ms-xl-3 ms-xxl-3 mt-3 wow fadeIn" data-wow-duration="2s"
+                    data-wow-delay="1s">
+                    <img src="assets/hero-illustration.svg" alt="A boy reading a book illustration">
+                </div>
             </div>
         </div>
+        <script src="/js/particles.js"></script>
+        <script src="/js/app.js"></script>
+
+
 
         <!-- Steps for study abroad -->
         <div class="d-flex mt-3">
