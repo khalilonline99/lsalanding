@@ -2,11 +2,16 @@
 
 
 /* navbar */
-.navbar {
+/* .navbar {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-}
+} */
 
+#navbar-logo {
+    width: 290px;
+    display: flex;
+    justify-content: flex-end;
+}
 
 /* body */
 body {
