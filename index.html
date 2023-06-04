@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/animate.css">
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/94ef149fb5.js" crossorigin="anonymous"></script>
+    <!-- flickity -->
+    <link rel="stylesheet" href="/css/flickity.css" media="screen">
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
@@ -347,9 +349,7 @@
                 data-wow-duration="2s">
                 <h1 id="section-five-heading">Colleges <span class="heading-black">and</span> Universities</h1>
                 <p id="section-five-paragraph">Students may take admission to the following colleges and
-                    universities!
-                    The
-                    trademark of the colleges and universities are not owned by LSA Education.</p>
+                    universities! The trademark of the colleges and universities are not owned by LSA Education.</p>
                 <button class="btn btn-outline-primary text-body rounded-4 px-4">Read more</button>
             </div>
             <div id="section-five-image-container" class="wow fadeIn" data-wow-duration="2s">
@@ -361,7 +361,32 @@
 
 
         <!-- some universities in vertical blue bar -->
-        <div id="universities" class="wow fadeIn" data-wow-delay="1s">
+
+        <div id="universities">
+            <div id="carousel-container" class="main-carousel container "
+                data-flickity='{ "groupCells": true, "wrapAround": true}'>
+
+                <div class="carousel-cell"><img src="assets/Canadore_College.png" alt="Candore College">
+                </div>
+                <div class="carousel-cell"><img src="assets/Concordia_University_of_Edmonton_logo.png"
+                        alt="Concordia University of Edmonton"></div>
+                <div class="carousel-cell"> <img src="assets/coventry-university-logo.png" alt="coventry university">
+                </div>
+                <div class="carousel-cell"><img src="assets/CapeBretonUniversityLogo.png" alt="CapeBreton University">
+                </div>
+                <div class="carousel-cell"><img src="assets/CDI_College.png" alt="CDI College"></div>
+                <div class="carousel-cell"><img src="assets/CapeBretonUniversityLogo.png" alt="CapeBreton University">
+                </div>
+                <div class="carousel-cell"><img src="assets/CDI_College.png" alt="CDI College"></div>
+                <div class="carousel-cell"><img src="assets/CDI_College.png" alt="CDI College"></div>
+                <div class="carousel-cell"> <img src="assets/coventry-university-logo.png" alt="coventry university">
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- <div id="universities" class="wow fadeIn" data-wow-delay="1s">
             <div
                 class="d-xl-flex d-lg-flex d-flex flex-wrap w-100 justify-content-center justify-content-lg-around justify-content-xl-around justify-content-xxl-around align-items-center universities-container gap-2">
                 <img class="uni-image-small" src="assets/Canadore_College.png" alt="Candore College">
@@ -371,7 +396,7 @@
                 <img class="uni-image-medium" src="assets/CapeBretonUniversityLogo.png" alt="CapeBreton University">
                 <img class="uni-image-small" src="assets/CDI_College.png" alt="CDI College">
             </div>
-        </div>
+        </div> -->
 
         <!--Accordion (List of universities) -->
 
@@ -887,13 +912,15 @@
             crossorigin="anonymous"></script>
 
 
-            <!-- JS Custom -->
-            <script src="js/function.js"></script>
-            <!-- Wow min js -->
-            <script src="js/wow.min.js"></script>
-            <script>
-                new WOW().init();
-            </script>
+        <!-- JS Custom -->
+        <script src="js/function.js"></script>
+        <!-- Wow min js -->
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <!-- Flickity  -->
+        <script src="/js/flickity.pkgd.min.js"></script>
     </div>
 </body>
 

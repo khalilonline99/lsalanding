@@ -386,11 +386,18 @@
     /* Universitites */
     #universities {
         top: 0px;
-        border-radius: 0;
+        /* border-radius: 0; */
         width: 100vw;
-        height: 150px;
-        margin-bottom: 100px;
+        /* height: 150px;
+        margin-bottom: 100px; */
     }
+
+    #carousel-container {
+        background-color: #E2EFFC;
+        padding: 10px;
+        border-radius: 0;
+    }
+    
 
     .universities-container {
         margin: auto;
