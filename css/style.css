@@ -31,7 +31,6 @@ body {
 }
 
 
-
 #hero-container {
     margin-bottom: -31rem;
     /* position: relative;
@@ -88,19 +87,16 @@ body {
     position: absolute;
     right: 239px;
     z-index: 2;
-    animation: light 2800ms ease-in-out 0s alternate;
+    animation: plane 2800ms ease-in-out 0s alternate;
     width: 16%;
-
-    animation: light 2800ms ease-in-out 0s alternate;
 }
 
-@keyframes light {
+@keyframes plane {
     0% {
         top: 373px;
         position: absolute;
         right: 177px;
         z-index: 2;
-        animation: light 2800ms ease-in-out 0s alternate;
         width: 4%;
     }
 
@@ -109,7 +105,6 @@ body {
         position: absolute;
         right: 239px;
         z-index: 2;
-        animation: light 2800ms ease-in-out 0s alternate;
         width: 16%;
     }
 }
@@ -486,7 +481,8 @@ body {
 }
 
 .carousel-cell-feedback-student {
-    /* height: 280px; */
+    height: 280px;
+    width: 400px;
     margin-right: 10px;
     /* border-radius: 5px; */
     /* display: flex;
@@ -735,7 +731,14 @@ body {
     top: -61px;
 }
 
+
+
 /* Get in touch Form Part */
+
+#get-in-touch-section {
+    margin-bottom: 25rem;
+    margin-top: 10rem;
+}
 
 .form-container {
     position: relative;
@@ -851,7 +854,7 @@ input:focus {
     font-weight: 700;
     font-size: 64px;
     text-align: right;
-    padding-right: 250px;
+    padding-right: 315px;
     text-transform: lowercase;
     color: #EC7938;
 }
@@ -898,7 +901,7 @@ input:focus {
     width: 2536px;
     left: -451px;
     /* top: -755px; */
-    bottom: 792px;
+    bottom: 820px;
     z-index: 0;
     margin-bottom: -857px;
 }
@@ -919,6 +922,13 @@ input:focus {
 .footer-text {
     font-weight: 400;
     font-size: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.footer-text-address {
+    font-weight: 400;
+    font-size: 15px;
     text-transform: capitalize;
     color: #FFFFFF;
 }

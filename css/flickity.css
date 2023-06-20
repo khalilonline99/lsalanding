@@ -6,7 +6,9 @@ https://flickity.metafizzy.co
   position: relative;
 }
 
-.flickity-enabled:focus { outline: none; }
+.flickity-enabled:focus {
+  outline: none;
+}
 
 .flickity-viewport {
   overflow: hidden;
@@ -102,8 +104,14 @@ https://flickity.metafizzy.co
   transform: translateY(-50%);
 }
 
-.flickity-prev-next-button.previous { left: 10px; }
-.flickity-prev-next-button.next { right: 10px; }
+.flickity-prev-next-button.previous {
+  left: 10px;
+}
+
+.flickity-prev-next-button.next {
+  right: 10px;
+}
+
 /* right to left */
 .flickity-rtl .flickity-prev-next-button.previous {
   left: auto;
@@ -136,7 +144,9 @@ https://flickity.metafizzy.co
   /* display: none; */
 }
 
-.flickity-rtl .flickity-page-dots { direction: rtl; }
+.flickity-rtl .flickity-page-dots {
+  direction: rtl;
+}
 
 .flickity-page-dot {
   display: block;
@@ -168,4 +178,22 @@ https://flickity.metafizzy.co
   width: 40px;
   height: 10px;
   border-radius: 5px;
+}
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .flickity-viewport {
+    overflow: inherit;
+    position: relative;
+    height: 100%;
+    width: 400px;
+    touch-action: pan-y;
+  }
+
+  .flickity-page-dot {
+    display: none;
+  }
+
 }

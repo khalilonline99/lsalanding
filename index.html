@@ -34,7 +34,7 @@
                 <nav class="navbar navbar-expand-sm w-100 mx-auto nav-menu">
                     <div class="container-fluid">
                         <div class="navbar-brand" id="navbar-logo">
-                            <a href="#"><img src="assets/lsalogo.svg" alt="LSA Education"></a>
+                            <a href="/"><img src="assets/lsalogo.svg" alt="LSA Education Logo"></a>
                         </div>
 
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -370,8 +370,8 @@
         <!-- some universities in vertical blue bar -->
 
         <div id="universities">
-            <div id="carousel-container" class="main-carousel container "
-                data-flickity='{ "groupCells": true, "wrapAround": true}'>
+            <div id="carousel-container" class="main-carousel container"
+                data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": true}'>
 
                 <div class="carousel-cell"><img src="assets/Canadore_College.png" alt="Candore College">
                 </div>
@@ -385,27 +385,9 @@
                 <div class="carousel-cell"><img src="assets/CapeBretonUniversityLogo.png" alt="CapeBreton University">
                 </div>
                 <div class="carousel-cell"><img src="assets/CDI_College.png" alt="CDI College"></div>
-                <div class="carousel-cell"><img src="assets/CDI_College.png" alt="CDI College"></div>
-                <div class="carousel-cell"> <img src="assets/coventry-university-logo.png" alt="coventry university">
-                </div>
-
             </div>
         </div>
 
-
-        <!-- <div id="universities" class="wow fadeIn" data-wow-delay="1s">
-            <div
-                class="d-xl-flex d-lg-flex d-flex flex-wrap w-100 justify-content-center justify-content-lg-around justify-content-xl-around justify-content-xxl-around align-items-center universities-container gap-2">
-                <img class="uni-image-small" src="assets/Canadore_College.png" alt="Candore College">
-                <img class="uni-image-medium" src="assets/Concordia_University_of_Edmonton_logo.png"
-                    alt="Concordia University of Edmonton">
-                <img class="uni-image-large" src="assets/coventry-university-logo.png" alt="coventry university">
-                <img class="uni-image-medium" src="assets/CapeBretonUniversityLogo.png" alt="CapeBreton University">
-                <img class="uni-image-small" src="assets/CDI_College.png" alt="CDI College">
-            </div>
-        </div> -->
-
-        <!--Accordion (List of universities) -->
 
         <div class="d-flex flex-column flex-lg-row flex-xl-row flex-xxl-row accordion-container">
 
@@ -790,7 +772,7 @@
 
 
                 <div class="main-carousel container"
-                    data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": true, "fade": true, "initialIndex": 1, "pageDots": true }'>
+                    data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": true, "fade": true, "initialIndex": 1, "pageDots": true}'>
 
                     <div class="carousel-cell-popular-courses">
                         <div class="courses-card-container">
@@ -1015,7 +997,7 @@
 
 
         <!-- Get in touch part (Form)-->
-        <div class="mt-5" style="margin-bottom: 25rem;">
+        <div id="get-in-touch-section">
             <div>
                 <h1 id="get-in-touch" class="wow fadeIn">Get In Touch</h1>
             </div>
@@ -1028,41 +1010,46 @@
 
                 <div class="form-container wow fadeIn">
 
-                    <form class="row g-1">
+                    <form class="row g-1 w-75 mx-auto">
                         <div class="col-12">
                             <label for="inputAddress" class="form-label">Your Name</label>
                             <div class="input-group">
-                                <span class="input-group-text" id="basic-addon1"> <img src="/assets/form-name.svg" alt=""> </span>
+                                <span class="input-group-text" id="basic-addon1"> <img src="/assets/form-name.svg"
+                                        alt=""> </span>
                                 <input type="text" class="form-control" placeholder="Your Name" id="inputAddress">
                             </div>
                         </div>
                         <div class="col-12">
                             <label for="inputAddress2" class="form-label">Email</label>
                             <div class="input-group">
-                                <span class="input-group-text" id="basic-addon1"> <img src="/assets/form-email.svg" alt=""> </span>
+                                <span class="input-group-text" id="basic-addon1"> <img src="/assets/form-email.svg"
+                                        alt=""> </span>
                                 <input type="text" class="form-control" placeholder="Email" id="inputAddress2">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Phone</label>
                             <div class="input-group">
-                                <span class="input-group-text" id="basic-addon1"> <img src="/assets/form-phone.svg" alt=""> </span>
+                                <span class="input-group-text" id="basic-addon1"> <img src="/assets/form-phone.svg"
+                                        alt=""> </span>
                                 <input type="email" class="form-control" placeholder="Phone" id="inputEmail4">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <label for="inputPassword4" class="form-label">Subject</label>
                             <div class="input-group">
-                                <span class="input-group-text" id="basic-addon1"> <img src="/assets/form-subject.svg" alt=""> </span>
+                                <span class="input-group-text" id="basic-addon1"> <img src="/assets/form-subject.svg"
+                                        alt=""> </span>
                                 <input type="text" class="form-control" placeholder="Subject" id="inputPassword4">
                             </div>
                         </div>
                         <div class="col-md-12">
                             <label for="studentMessage" class="form-label">Message</label>
                             <div class="input-group">
-                                <span class="input-group-text-student-message" id="basic-addon1"> <img src="/assets/form-message.svg" alt=""> </span>
+                                <span class="input-group-text-student-message" id="basic-addon1"> <img
+                                        src="/assets/form-message.svg" alt=""> </span>
                                 <textarea class="form-control" placeholder="Message" id="studentMessage"
-                                style="height: 100px"></textarea>
+                                    style="height: 100px"></textarea>
                             </div>
                         </div>
                         <div class="col-12">
@@ -1073,7 +1060,7 @@
                                 </label>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3 d-flex justify-content-center">
                             <button type="submit" class="btn btn-primary">Send Message</button>
                         </div>
                     </form>
@@ -1143,10 +1130,14 @@
                         <img src="assets/location-icon.svg" alt="location icon" id="footer-icon-location">
                         <div class="me-lg-5 me-xl-5 me-xxl-5 text-white" id="footer-address-container">
                             <h2 class="footer-heading">Address</h2>
-                            <p class="footer-text">Rupayan Millennium Square,Lift-4, 4E-1 70 /A Progati
-                                sharoni,North
-                                Badda,Dhaka,1212 Dhaka,
+                            <p class="footer-text-address">Dhaka: Rupayan Millennium Square,Lift-4, 4E-1 70 /A Progati
+                                sharoni,North Badda,Dhaka,1212 Dhaka,
                                 Bangladesh</p>
+                            <p class="footer-text-address">Sylhet: Sylhet City Center, 602, 7th Floor Lift 6, Sylhet
+                                3100, Bangladesh</p>
+                            <p class="footer-text-address">Chittagong: 10 Bayazid Bostami Rd, Baktiar Center, 4th Floor,
+                                East Nasirabad, Opposite of Karnaphuli Complex, 2 No Gate, Chattogram 4000, Bangladesh
+                            </p>
                         </div>
                     </div>
                     <div style="width: 112px;" class="text-white">

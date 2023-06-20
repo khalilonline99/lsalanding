@@ -19,7 +19,7 @@
         /* position: relative;
         z-index: 1; */
     }
-    
+
     #hero-texts {
         margin-left: 2rem;
         margin-top: 4rem;
@@ -46,10 +46,41 @@
     }
 
     #hero-illustration img {
-        width: 27em;
-        padding-top: 2rem;
+        width: 26em;
+        margin-top: -2rem;
         padding-right: 2rem;
     }
+
+
+    #hero-plane {
+        top: 40px;
+        position: relative;
+        right: -110px;
+        z-index: 2;
+        animation: plane 3200ms ease-in-out 0s alternate;
+        width: 39%;
+    }
+
+    @keyframes plane {
+        0% {
+            top: 155px;
+            position: relative;
+            right: -290px;
+            z-index: 2;
+            width: 3%;
+        }
+
+        100% {
+            top: 40px;
+            position: relative;
+            right: -110px;
+            z-index: 2;
+            width: 39%;
+        }
+    }
+
+
+
 
     /* Section Two - Study Abroad */
 
@@ -184,6 +215,9 @@
         display: none;
 
     }
+
+
+
 
     /* Counter Section */
 
@@ -320,6 +354,9 @@
         z-index: 2;
     }
 
+
+
+
     /* Section Five Colleges and unis */
 
     #section-five {
@@ -392,32 +429,31 @@
         margin-bottom: 100px; */
     }
 
+    .carousel-cell {
+        width: 39%;
+        height: 8em;
+        margin-right: 10px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .carousel-cell img {
+        max-width: 8em;
+        margin-right: 20px;
+    }
+
+
     #carousel-container {
         background-color: #E2EFFC;
         padding: 10px;
         border-radius: 0;
     }
-    
 
-    .universities-container {
-        margin: auto;
-        padding: 5px;
-    }
 
-    .uni-image-small {
-        width: 92px;
-        height: 33px;
-    }
 
-    .uni-image-medium {
-        width: 92px;
-        height: 33px;
-    }
-
-    .uni-image-large {
-        width: 92px;
-        height: 33px;
-    }
 
     /* accordion Part */
     .accordion-container {
@@ -467,7 +503,7 @@
     /* Feedback Part */
 
     #feedback-container {
-        height: 72rem;
+        /* height: 72rem; */
         background: #FFF5F5;
         display: flex;
         flex-direction: column;
@@ -476,6 +512,12 @@
         padding-bottom: 30px;
         margin-top: 85px;
         margin-bottom: 100px;
+    }
+
+    .carousel-cell-feedback-student {
+        height: 280px;
+        width: 400px;
+        margin-right: 10px;
     }
 
     .feedback-card {
@@ -680,11 +722,11 @@
 
     #footer-bg {
         position: relative;
-        width: 100rem;
-        left: -547px;
-        bottom: 0px;
+        width: 120rem;
+        left: -957px;
+        bottom: 136px;
         z-index: 0;
-        margin-bottom: 0;
+        margin-bottom: -150px;
     }
 
     .footer-heading {
@@ -693,25 +735,25 @@
         text-transform: capitalize;
         color: #FFFFFF;
     }
-
+    
     .footer-text {
         font-weight: 300;
         font-size: 15px;
         text-transform: capitalize;
         color: #FFFFFF;
     }
-
+    
     #footer-icon-location {
         width: 5vw;
         padding-top: 6px;
         margin-right: 7px;
     }
-
+    
     #footer-header-and-links {
         padding-left: 0;
     }
-
-
+    
+    
     .trained-by {
         font-weight: 700;
         font-size: 18px;
@@ -720,7 +762,7 @@
         color: #FFFFFF;
         width: 204px;
     }
-
+    
     .copyright-container {
         position: relative;
         padding-top: 0;
@@ -728,7 +770,7 @@
         bottom: -534px;
         left: 0px;
     }
-
+    
     .copyright-text {
         font-weight: 400;
         font-size: 15px;
@@ -737,9 +779,11 @@
         margin: 0;
         color: #FFFFFF;
     }
-
+    
     #footer-sponsor-image {
         width: 50vw;
     }
-
 }
+
+
+
