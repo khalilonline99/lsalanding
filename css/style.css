@@ -44,7 +44,7 @@ body {
 }
 
 #particles-js {
-    background-image: url('../assets/hero-bg.png');
+    background-image: url('../assets/hero-bg-2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,9 +83,43 @@ body {
     padding-left: 205px;
 }
 
-#hero-illustration {
-    padding-top: 77px;
+#hero-plane {
+    top: 127px;
+    position: absolute;
+    right: 239px;
+    z-index: 2;
+    animation: light 2800ms ease-in-out 0s alternate;
+    width: 16%;
+
+    animation: light 2800ms ease-in-out 0s alternate;
 }
+
+@keyframes light {
+    0% {
+        top: 373px;
+        position: absolute;
+        right: 177px;
+        z-index: 2;
+        animation: light 2800ms ease-in-out 0s alternate;
+        width: 4%;
+    }
+
+    100% {
+        top: 127px;
+        position: absolute;
+        right: 239px;
+        z-index: 2;
+        animation: light 2800ms ease-in-out 0s alternate;
+        width: 16%;
+    }
+}
+
+
+#hero-illustration {
+    position: relative;
+    top: 19px;
+}
+
 
 /* steps of higher study */
 
@@ -451,6 +485,21 @@ body {
     align-items: center;
 }
 
+.carousel-cell-feedback-student {
+    /* height: 280px; */
+    margin-right: 10px;
+    /* border-radius: 5px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.carousel-cell-popular-courses {
+    margin-right: 10px;
+    border-radius: 5px;
+    height: 460px;
+}
+
 .carousel-cell img {
     width: 12em;
 }
@@ -482,7 +531,31 @@ body {
 .accordion-text {
     font-weight: 400;
     font-size: 32px;
+    display: grid;
+    grid-template-columns: 2fr 20px;
 }
+
+.accordion {
+    --bs-accordion-border-width: '0';
+}
+
+.accordion-button {
+    padding: 0;
+}
+
+.accordion-button::after {
+    background-image: url("../assets/arrow-down.svg");
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../assets/arrow-down.svg");
+}
+
 
 .accordion-text-and-arrow {
     width: 635px;
@@ -508,12 +581,14 @@ body {
     margin-bottom: 100px;
 }
 
+
 .feedback-card {
     width: 379px;
-    height: 270px;
+    height: 250px;
     background: #FFFFFF;
-    box-shadow: 8px 16px 20px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 8px 10px 10px 5px rgba(0, 0, 0, 0.03);
     border-radius: 18px;
+    padding-bottom: 20px;
 }
 
 .feedback-student-name {
@@ -629,6 +704,7 @@ body {
 .courses-card-container {
     width: 349px;
     height: 424px;
+    box-shadow: 8px 10px 20px 5px rgba(0, 0, 0, 0.05);
 }
 
 .sub-heading-two {
