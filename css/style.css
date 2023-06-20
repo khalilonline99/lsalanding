@@ -742,6 +742,77 @@ body {
     z-index: 2;
 }
 
+.form-container label {
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #5A5A5A;
+}
+
+.form-container input {
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #B0B0B0;
+}
+
+.form-container button {
+    width: 216px;
+    height: 50px;
+    left: 866px;
+    top: 6945px;
+    background: #EC7938;
+    border-radius: 25px;
+
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.form-container textarea {
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #B0B0B0;
+}
+
+.form-control {
+    border: 0;
+    background-color: antiquewhite;
+}
+
+.form-control:focus {
+    border: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+    background-color: antiquewhite;
+}
+
+.input-group {
+    border: 2px solid #EC7938;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.input-group-text {
+    background-color: transparent;
+    border: 0;
+}
+.input-group-text-student-message {
+    display: flex;
+    align-items: start;
+    padding: 0.875rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    text-align: center;
+    white-space: nowrap;
+}
 #form-background {
     position: relative;
     width: 876px;
