@@ -188,12 +188,11 @@ https://flickity.metafizzy.co
     overflow: inherit;
     position: relative;
     height: 100%;
-    width: 400px;
     touch-action: pan-y;
   }
 
   .flickity-page-dot {
-    display: none;
+    visibility: hidden;
   }
 
 }

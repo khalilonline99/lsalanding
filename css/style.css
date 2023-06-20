@@ -490,11 +490,6 @@ body {
     align-items: center; */
 }
 
-.carousel-cell-popular-courses {
-    margin-right: 10px;
-    border-radius: 5px;
-    height: 460px;
-}
 
 .carousel-cell img {
     width: 12em;
@@ -701,6 +696,13 @@ body {
     width: 349px;
     height: 424px;
     box-shadow: 8px 10px 20px 5px rgba(0, 0, 0, 0.05);
+}
+
+
+.carousel-cell-popular-courses {
+    margin-right: 10px;
+    border-radius: 5px;
+    height: 460px;
 }
 
 .sub-heading-two {

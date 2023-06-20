@@ -668,6 +668,29 @@
         text-align: center;
     }
 
+    .main-carousel {
+        /* width: 90em; */
+        width: 100%;
+    
+    }
+
+    .courses-card-container {
+        width: 349px;
+        height: 424px;
+        box-shadow: 8px 10px 20px 5px rgba(0, 0, 0, 0.05);
+    }
+    
+    .carousel-cell-popular-courses {
+        margin-right: 10px;
+        border-radius: 5px;
+        height: 460px;
+    }
+
+    
+
+
+
+
     /* Get in touch Form Part */
 
     #get-in-touch {
@@ -767,7 +790,7 @@
         position: relative;
         padding-top: 0;
         z-index: 2;
-        bottom: -534px;
+        bottom: -520px;
         left: 0px;
     }
     
