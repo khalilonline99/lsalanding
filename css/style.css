@@ -960,3 +960,7 @@ input:focus {
     padding-top: 30px;
     z-index: 2;
 }
+
+.copyright-section {
+    width: 70%;
+}

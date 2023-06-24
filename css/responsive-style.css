@@ -671,7 +671,7 @@
     .main-carousel {
         /* width: 90em; */
         width: 100%;
-    
+
     }
 
     .courses-card-container {
@@ -679,14 +679,14 @@
         height: 424px;
         box-shadow: 8px 10px 20px 5px rgba(0, 0, 0, 0.05);
     }
-    
+
     .carousel-cell-popular-courses {
         margin-right: 10px;
         border-radius: 5px;
         height: 460px;
     }
 
-    
+
 
 
 
@@ -729,7 +729,8 @@
     .footer-container {
         position: relative;
         z-index: 2;
-        bottom: -522px;
+        bottom: -506px;
+        left: 20px;
     }
 
 
@@ -758,25 +759,25 @@
         text-transform: capitalize;
         color: #FFFFFF;
     }
-    
+
     .footer-text {
         font-weight: 300;
         font-size: 15px;
         text-transform: capitalize;
         color: #FFFFFF;
     }
-    
+
     #footer-icon-location {
         width: 5vw;
         padding-top: 6px;
         margin-right: 7px;
     }
-    
+
     #footer-header-and-links {
         padding-left: 0;
     }
-    
-    
+
+
     .trained-by {
         font-weight: 700;
         font-size: 18px;
@@ -785,15 +786,15 @@
         color: #FFFFFF;
         width: 204px;
     }
-    
+
     .copyright-container {
         position: relative;
         padding-top: 0;
         z-index: 2;
-        bottom: -520px;
+        bottom: -500px;
         left: 0px;
     }
-    
+
     .copyright-text {
         font-weight: 400;
         font-size: 15px;
@@ -802,11 +803,12 @@
         margin: 0;
         color: #FFFFFF;
     }
-    
+
     #footer-sponsor-image {
         width: 50vw;
     }
+
+    .copyright-section {
+        width: 100%;
+    }
 }
-
-
-
